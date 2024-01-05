@@ -1,7 +1,7 @@
-import React from 'react'
+
 import Link from 'next/link'
 
-const Home: React.FC = () => {
+export default function Home() {
   return (
     <div className='container mx-auto px-6 py-8'>
       <h1 className='text-4xl font-bold text-gray-800 text-center'>
@@ -48,5 +48,3 @@ const Home: React.FC = () => {
     </div>
   )
 }
-
-export default Home
